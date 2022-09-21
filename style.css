@@ -99,12 +99,16 @@
 }
 
 .fotopulsera{
-    padding-left: 150px;
+    padding: 30px 43%;
 }
 
 .section3{
     height: 310px;
     background-color: rgb(81, 85, 126);
+}
+
+.vender{
+    border: solid black 1px;
 }
 
 /* Celular */
