@@ -3,20 +3,18 @@
     padding: 0;
 }
 
-.elheader{
+/* NavBar */
+.header1{
     background-color: rgb(40, 40, 40);
-    color: rgb(255, 255, 255);
-    padding: 20px 0px;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
+}
+/* NavBar */
+
+.carrusel-dimension{
+    width: 80%;
+    margin: 0 auto;
 }
 
-.nav{
-    width: 60%;
-}
-
-.menu{
+/*.menu{
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -48,70 +46,63 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(129, 103, 151);
-}
+}*/
 
 .pie{
-    color: rgb(255, 255, 255);
-    background-color: rgb(40, 40, 40);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navpie{
-    width: 15%;
-}
-
-.listapie{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
 }
 
 .logopie{
-    padding-left: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .section2{
     height: 180px;
-    background-color: rgb(81, 85, 126);
+    background-color: rgb(27, 36, 48);
 }
 
 .div2{
-    background-color: rgb(27, 36, 48);
     color: white;
     font-family: 'Permanent Marker', cursive;
 }
 
 .div3{
-    background-color: rgb(81, 85, 126);
+    color: azure;
     font-family: 'Permanent Marker', cursive;
 }
 
+/* Empieza pulseras */
+
 .fotos2{
-    background-color: rgb(81, 85, 126);
+    background-color: rgb(81, 85, 126);     
     width: 100%;
+    border: solid 1px black;
 }
 
 .pulsera-1{
     display: flex;
     justify-content: center;
-}
-
-.fotopulsera{
-    padding: 30px 43%;
-}
-
-.section3{
-    height: 310px;
-    background-color: rgb(81, 85, 126);
-}
+    padding: 5px;
+}   
 
 .vender{
     border: solid black 1px;
 }
 
-/* Celular */
+.boton{
+    background-color: rgb(27, 36, 48);
+    color: rgb(81, 85, 126);
+}
+
+/* Empieza contacto */
+
+.section3{
+    height: 320px;
+    background-color: rgb(27, 36, 48);
+    border: 3px solid black;
+} 
 
 
 

@@ -6,41 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>DiOui</title>
 </head>
 
 <body>
 
-    <header class="elheader">
-        <nav class="nav">
-            <ul class="menu">
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="pulseras.html">Pulseras</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
+    <nav class="navbar navbar-expand-lg header1 navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">DiOui</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pulseras.html">Pulseras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
             </ul>
-        </nav>
-    </header>
-    
-    <section class="section">
-        <div class="div">
-            <p class="buscar">Buscar</p>
-                <div class="logo">
-                    <img src="Imagenes/LogoDiOui.jpeg" alt="logo">
-                </div>
-                <div>
-                    <a target="_blank" href="https://www.instagram.com/di.oui/">
-                    <img src="Imagenes/redes-2.jfif" alt="redes sociales">
-                    </a>
-                </div>
+          </div>
         </div>
-    </section>
+      </nav>
+    
+    <section class="pie">
+        <div class="logopie">
+            <a target="_blank" href="https://www.instagram.com/di.oui/">
+                <img src="Imagenes/redes-2.jfif" alt="logo">
+            </a>
+        </div>  
+    </section> 
 
     <section class="section3">
         <div class="div2">
@@ -48,7 +50,7 @@
         </div>
         <div class="div3">
             <p>Para concretar una compra comunicate con nosotros por Instagram, haz click 
-            <a target="_blank" href="https://www.instagram.com/di.oui/">AQUI</a> para entrar a nuestro Instagram y no dudes en mandarnos un mensaje!</p>
+            <a target="_blank" href="https://www.instagram.com/di.oui/"><button type="button" class="btn btn-dark">AQUI</button></a> para entrar a nuestro Instagram y no dudes en mandarnos un mensaje!</p>
         </div>
     </section>
 
@@ -64,17 +66,8 @@
     <footer class="pie">
         <div class="logopie">
             <img src="Imagenes/LogoDiOui.jpeg" alt="logo">
-        </div>
-        <nav class="navpie">
-            <ul class="listapie">
-                <il>
-                    <h1>
-                    <a target="_blank" href="https://www.instagram.com/di.oui/">Instagram</a>
-                    </h1>
-                </il>
-            </ul>
-        </nav>
-    </footer>
+        </div>  
+    </footer> 
 
 
 
@@ -96,7 +89,12 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
 
 </body>
 
