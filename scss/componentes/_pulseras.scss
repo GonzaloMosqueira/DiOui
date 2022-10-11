@@ -1,5 +1,20 @@
 @import '../base/mixin';
+@import '../base/listas';
 
 .vender{
     @include border (1px)
+}
+
+.pulsera-1{
+    @include flex (none, 5px)
+}
+
+.fotos2{
+    background-color: nth($colores, 4);
+    @include border (1px)
+}
+
+.boton{
+    background-color: nth($colores, 3);
+    color: nth($colores, 4);
 }
