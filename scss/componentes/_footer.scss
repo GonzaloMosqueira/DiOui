@@ -1,0 +1,10 @@
+@import '../base/mixin';
+@import '../base/listas';
+
+.logopie{
+    @include flex (100%, none);
+}
+
+.pie{
+    color: nth($colores, 1)
+}

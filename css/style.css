@@ -1,3 +1,31 @@
-/* Hola */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header1 {
+  background-color: rgb(40, 40, 40);
+}
+
+.logopie {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: none;
+}
+
+.pie {
+  color: rgb(0, 0, 0);
+}
+
+.vender {
+  border: 1px solid black;
+}
+
+.section3 {
+  background-color: rgb(27, 36, 48);
+  height: 320px;
+  border: 3px solid black;
+}
 
 /*# sourceMappingURL=style.css.map */

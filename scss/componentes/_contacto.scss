@@ -1,0 +1,8 @@
+@import '../base/mixin';
+@import '../base/listas';
+
+.section3{
+    background-color: nth($colores, 3);
+    height: nth($height, 2);
+    @include border (3px)
+}
