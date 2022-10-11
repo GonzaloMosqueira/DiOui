@@ -1,0 +1,11 @@
+
+@mixin flex($width, $padding) {
+    display: flex;
+    justify-content: center;
+    width: $width;
+    padding: $padding;
+}
+
+@mixin border ($px) {
+    border: $px solid black;
+}

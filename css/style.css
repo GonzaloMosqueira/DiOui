@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header1 {
+  background-color: rgb(40, 40, 40);
+}
+
+.logopie {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: none;
+}
+
+.pie {
+  background-color: rgb(0, 0, 0);
+}
+
+.section2 {
+  height: 180px;
+  background-color: rgb(27, 36, 48);
+}
+
+.div2 {
+  font-family: "Permanent Marker", cursive;
+  color: white;
+}
+
+.div3 {
+  font-family: "Permanent Marker", cursive;
+  color: azure;
+}
+
+.vender {
+  border: 1px solid black;
+}
+
+.pulsera-1 {
+  display: flex;
+  justify-content: center;
+  width: none;
+  padding: 5px;
+}
+
+.fotos2 {
+  background-color: rgb(81, 85, 126);
+  border: 1px solid black;
+}
+
+.boton {
+  background-color: rgb(27, 36, 48);
+  color: rgb(81, 85, 126);
+}
+
+.section3 {
+  color: white;
+  background-color: rgb(27, 36, 48);
+  height: 320px;
+  border: 3px solid black;
+}
+
+/*# sourceMappingURL=style.css.map */
