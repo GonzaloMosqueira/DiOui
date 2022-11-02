@@ -1,0 +1,17 @@
+@import '../base/mixin';
+@import '../base/listas';
+
+.section2{
+    height: nth($height, 1);
+    background-color: nth($colores, 3);
+}
+
+.div2{
+    font-family: 'Permanent Marker', cursive;
+    color: nth($colores, 5);
+}
+
+.div3{
+    font-family: 'Permanent Marker', cursive;
+    color: azure;
+}
