@@ -1,0 +1,26 @@
+@import '../base/mixin';
+@import '../base/listas';
+
+.mapa{
+    @include flex(100%, 25px 0px);
+}
+
+.color-mapa{
+    background-color: nth($colores, 3);
+}
+
+.color-localidad{
+    background-color: nth($colores, 4);
+}
+
+.titulo-localidad{
+    @include flex(100%, 10px 0px);
+    color: nth($colores, 5);
+    height: nth($height, 3);
+}
+
+.parrafo-localidad{
+    @include flex(100%, none);
+    color: nth($colores, 5);
+    height: nth($height, 3);
+}
