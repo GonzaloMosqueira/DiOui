@@ -61,4 +61,37 @@
   border: 3px solid black;
 }
 
+.mapa {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 25px 0px;
+}
+
+.color-mapa {
+  background-color: rgb(27, 36, 48);
+}
+
+.color-localidad {
+  background-color: rgb(81, 85, 126);
+}
+
+.titulo-localidad {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0px;
+  color: white;
+  height: 80px;
+}
+
+.parrafo-localidad {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: none;
+  color: white;
+  height: 80px;
+}
+
 /*# sourceMappingURL=style.css.map */
