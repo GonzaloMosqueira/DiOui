@@ -27,6 +27,30 @@ function agregarAlCarrito(nombre, precio) {
   actualizarCarrito();
 }
 
+// Función para eliminar un artículo del carrito
+function eliminarDelCarrito(nombre) {
+  for (let i = 0; i < carrito.length; i++) {
+    if (carrito[i].nombre === nombre) {
+      if (carrito[i].cantidad > 1) {
+        carrito[i].cantidad--;
+      } else {
+        carrito.splice(i, 1);
+      }
+      break;
+    }
+  }
+  actualizarCarrito();
+}
+
+// Función para finalizar la compra
+function finalizarCompra() {
+  // Abrir la página de pago en una nueva pestaña o ventana
+  window.open("https://mpago.la/2miBUwR", "_blank");
+  carrito.length = 0; // Vaciar el carrito después de finalizar la compra
+  actualizarCarrito();
+}
+
+
 // Función para actualizar la UI del carrito
 function actualizarCarrito() {
   // Buscamos los elementos del DOM relevantes
