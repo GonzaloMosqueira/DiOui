@@ -50,6 +50,7 @@
                 </div>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-center pulsera-1">
                   <button onclick="agregarAlCarrito('Conjunto Collares', 3200)">Agregar al carrito</button>
+                  <button onclick="eliminarDelCarrito('Conjunto Collares')">Eliminar del carrito</button>
                 </div>
             </div>
             <div class="vender">
@@ -60,6 +61,7 @@
                 </div>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-center pulsera-1">
                   <button onclick="agregarAlCarrito('Collar Corazon', 1200)">Agregar al carrito</button>
+                  <button onclick="eliminarDelCarrito('Collar Corazon')">Eliminar del carrito</button>
                 </div>
             </div>
         </div>
@@ -69,6 +71,8 @@
     <div id="mensajeCarrito"></div>
     <ul id="listaCarrito"></ul>
     <div>Total: $<span id="totalCarrito">0</span></div>
+
+    <button onclick="finalizarCompra()">Finalizar compra</button>
 
     <footer class="pie">
       <div class="logopie">
